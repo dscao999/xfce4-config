@@ -163,9 +163,13 @@
   </property>
   <property name="desktop-menu" type="empty">
     <property name="show" type="bool" value="false"/>
+    <property name="show-icons" type="bool" value="false"/>
   </property>
   <property name="windowlist-menu" type="empty">
     <property name="show" type="bool" value="false"/>
+    <property name="show-icons" type="bool" value="false"/>
+    <property name="show-workspace-names" type="bool" value="false"/>
+    <property name="show-add-remove-workspaces" type="bool" value="false"/>
   </property>
   <property name="last" type="empty">
     <property name="window-width" type="int" value="641"/>
@@ -177,6 +181,6 @@
       <property name="show-filesystem" type="bool" value="false"/>
       <property name="show-trash" type="bool" value="false"/>
     </property>
-    <property name="style" type="int" value="2"/>
+    <property name="style" type="int" value="0"/>
   </property>
 </channel>
